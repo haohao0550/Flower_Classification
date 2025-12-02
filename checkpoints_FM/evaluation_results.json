@@ -1,0 +1,1414 @@
+{
+  "model_info": {
+    "total_parameters": 3813681,
+    "trainable_parameters": 3790769,
+    "model_type": "MobileNet",
+    "input_shape": [
+      224,
+      224,
+      3
+    ],
+    "num_classes": 113,
+    "batch_size": 16
+  },
+  "training_info": {
+    "current_epoch": 133,
+    "total_epochs_planned": null,
+    "last_val_accuracy": 0.8758752346038818,
+    "last_val_loss": 0.07116757333278656,
+    "timestamp": "2025-11-29T20:02:53.394830",
+    "total_epochs_completed": 133
+  },
+  "test_results": {
+    "top_1_accuracy": 0.851335656213705,
+    "top_3_accuracy": 0.9564459930313589,
+    "top_5_accuracy": 0.975609756097561,
+    "overall_accuracy": 0.851335656213705,
+    "mean_per_class_accuracy": 0.8768865532136499,
+    "std_per_class_accuracy": 0.16864889833311225,
+    "min_per_class_accuracy": 0.2857142857142857,
+    "max_per_class_accuracy": 1.0
+  },
+  "per_class_results": [
+    {
+      "class": "Aconitum_napellus",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Adenium_obesum",
+      "accuracy": 0.9,
+      "correct": 9,
+      "total": 10
+    },
+    {
+      "class": "Alpinia_purpurata",
+      "accuracy": 1.0,
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "class": "Alstroemeria_aurea",
+      "accuracy": 1.0,
+      "correct": 13,
+      "total": 13
+    },
+    {
+      "class": "Anemone_coronaria",
+      "accuracy": 1.0,
+      "correct": 9,
+      "total": 9
+    },
+    {
+      "class": "Anemone_hupehensis",
+      "accuracy": 1.0,
+      "correct": 9,
+      "total": 9
+    },
+    {
+      "class": "Anthurium_andraeanum",
+      "accuracy": 1.0,
+      "correct": 17,
+      "total": 17
+    },
+    {
+      "class": "Antigonon_leptopus",
+      "accuracy": 0.8157894736842105,
+      "correct": 31,
+      "total": 38
+    },
+    {
+      "class": "Antirrhinum_majus",
+      "accuracy": 0.9285714285714286,
+      "correct": 13,
+      "total": 14
+    },
+    {
+      "class": "Aquilegia_vulgaris",
+      "accuracy": 1.0,
+      "correct": 14,
+      "total": 14
+    },
+    {
+      "class": "Astrantia_major",
+      "accuracy": 1.0,
+      "correct": 9,
+      "total": 9
+    },
+    {
+      "class": "Barringtonia_acutangula",
+      "accuracy": 0.96,
+      "correct": 24,
+      "total": 25
+    },
+    {
+      "class": "Bauhinia_purpurea",
+      "accuracy": 1.0,
+      "correct": 36,
+      "total": 36
+    },
+    {
+      "class": "Bidens_pilosa",
+      "accuracy": 0.9705882352941176,
+      "correct": 33,
+      "total": 34
+    },
+    {
+      "class": "Bombax_ceiba",
+      "accuracy": 0.9166666666666666,
+      "correct": 11,
+      "total": 12
+    },
+    {
+      "class": "Bougainvillea_glabra",
+      "accuracy": 0.75,
+      "correct": 15,
+      "total": 20
+    },
+    {
+      "class": "Bromelia_pinguin",
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10
+    },
+    {
+      "class": "Calendula_officinalis",
+      "accuracy": 1.0,
+      "correct": 11,
+      "total": 11
+    },
+    {
+      "class": "Callistephus_chinensis",
+      "accuracy": 1.0,
+      "correct": 6,
+      "total": 6
+    },
+    {
+      "class": "Camellia_japonica",
+      "accuracy": 0.8666666666666667,
+      "correct": 13,
+      "total": 15
+    },
+    {
+      "class": "Campanula_medium",
+      "accuracy": 1.0,
+      "correct": 6,
+      "total": 6
+    },
+    {
+      "class": "Campsis_radicans",
+      "accuracy": 0.8,
+      "correct": 8,
+      "total": 10
+    },
+    {
+      "class": "Canna_indica",
+      "accuracy": 0.8461538461538461,
+      "correct": 11,
+      "total": 13
+    },
+    {
+      "class": "Catharanthus_roseus",
+      "accuracy": 0.4594594594594595,
+      "correct": 17,
+      "total": 37
+    },
+    {
+      "class": "Cattleya_labiata",
+      "accuracy": 1.0,
+      "correct": 12,
+      "total": 12
+    },
+    {
+      "class": "Cautleya_spicata",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Cirsium_vulgare",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Clematis_vitalba",
+      "accuracy": 0.9444444444444444,
+      "correct": 17,
+      "total": 18
+    },
+    {
+      "class": "Convolvulus_cneorum",
+      "accuracy": 1.0,
+      "correct": 9,
+      "total": 9
+    },
+    {
+      "class": "Crocus_vernus",
+      "accuracy": 1.0,
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "class": "Curcuma_alismatifolia",
+      "accuracy": 1.0,
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "class": "Cyclamen_persicum",
+      "accuracy": 0.9583333333333334,
+      "correct": 23,
+      "total": 24
+    },
+    {
+      "class": "Dahlia_pinnata",
+      "accuracy": 0.3103448275862069,
+      "correct": 9,
+      "total": 29
+    },
+    {
+      "class": "Dahlia_x_pinnata",
+      "accuracy": 1.0,
+      "correct": 17,
+      "total": 17
+    },
+    {
+      "class": "Datura_stramonium",
+      "accuracy": 0.9444444444444444,
+      "correct": 17,
+      "total": 18
+    },
+    {
+      "class": "Dendrobium_anosmum",
+      "accuracy": 0.6538461538461539,
+      "correct": 17,
+      "total": 26
+    },
+    {
+      "class": "Dendrobium_phalaenopsis",
+      "accuracy": 1.0,
+      "correct": 9,
+      "total": 9
+    },
+    {
+      "class": "Dendromecon_rigida",
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10
+    },
+    {
+      "class": "Dianthus_barbatus",
+      "accuracy": 0.9285714285714286,
+      "correct": 13,
+      "total": 14
+    },
+    {
+      "class": "Dianthus_caryophyllus",
+      "accuracy": 0.7777777777777778,
+      "correct": 7,
+      "total": 9
+    },
+    {
+      "class": "Digitalis_purpurea",
+      "accuracy": 1.0,
+      "correct": 25,
+      "total": 25
+    },
+    {
+      "class": "Echinacea_purpurea",
+      "accuracy": 1.0,
+      "correct": 14,
+      "total": 14
+    },
+    {
+      "class": "Echinops_ritro",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Echinopsis_oxygona",
+      "accuracy": 0.8421052631578947,
+      "correct": 32,
+      "total": 38
+    },
+    {
+      "class": "Eryngium_alpinum",
+      "accuracy": 1.0,
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "class": "Eschscholzia_californica",
+      "accuracy": 0.875,
+      "correct": 14,
+      "total": 16
+    },
+    {
+      "class": "Euphorbia_pulcherrima",
+      "accuracy": 1.0,
+      "correct": 15,
+      "total": 15
+    },
+    {
+      "class": "Eustoma_grandiflorum",
+      "accuracy": 0.6785714285714286,
+      "correct": 19,
+      "total": 28
+    },
+    {
+      "class": "Fritillaria_meleagris",
+      "accuracy": 1.0,
+      "correct": 15,
+      "total": 15
+    },
+    {
+      "class": "Fuchsia_magellanica",
+      "accuracy": 0.7391304347826086,
+      "correct": 17,
+      "total": 23
+    },
+    {
+      "class": "Gaillardia_aristata",
+      "accuracy": 0.875,
+      "correct": 7,
+      "total": 8
+    },
+    {
+      "class": "Gaura_lindheimeri",
+      "accuracy": 0.7894736842105263,
+      "correct": 15,
+      "total": 19
+    },
+    {
+      "class": "Gazania_rigens",
+      "accuracy": 1.0,
+      "correct": 13,
+      "total": 13
+    },
+    {
+      "class": "Gentiana_acaulis",
+      "accuracy": 1.0,
+      "correct": 11,
+      "total": 11
+    },
+    {
+      "class": "Geranium_sanguineum",
+      "accuracy": 1.0,
+      "correct": 18,
+      "total": 18
+    },
+    {
+      "class": "Gerbera_jamesonii",
+      "accuracy": 0.76,
+      "correct": 19,
+      "total": 25
+    },
+    {
+      "class": "Gladiolus_communis",
+      "accuracy": 0.4838709677419355,
+      "correct": 15,
+      "total": 31
+    },
+    {
+      "class": "Helianthus_annuus",
+      "accuracy": 0.8636363636363636,
+      "correct": 19,
+      "total": 22
+    },
+    {
+      "class": "Helleborus_orientalis",
+      "accuracy": 0.8181818181818182,
+      "correct": 9,
+      "total": 11
+    },
+    {
+      "class": "Hibiscus_rosa-sinensis",
+      "accuracy": 0.8571428571428571,
+      "correct": 18,
+      "total": 21
+    },
+    {
+      "class": "Hydrangea_macrophylla",
+      "accuracy": 0.5384615384615384,
+      "correct": 7,
+      "total": 13
+    },
+    {
+      "class": "Ipomoea_purpurea",
+      "accuracy": 0.8823529411764706,
+      "correct": 15,
+      "total": 17
+    },
+    {
+      "class": "Iris_domestica",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Iris_pseudacorus",
+      "accuracy": 0.625,
+      "correct": 5,
+      "total": 8
+    },
+    {
+      "class": "Jasminum_sambac",
+      "accuracy": 0.9,
+      "correct": 9,
+      "total": 10
+    },
+    {
+      "class": "Lantana_camara",
+      "accuracy": 0.631578947368421,
+      "correct": 12,
+      "total": 19
+    },
+    {
+      "class": "Lathyrus_odoratus",
+      "accuracy": 0.3333333333333333,
+      "correct": 3,
+      "total": 9
+    },
+    {
+      "class": "Lavatera_trimestris",
+      "accuracy": 0.9,
+      "correct": 9,
+      "total": 10
+    },
+    {
+      "class": "Leucanthemum_vulgare",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Lilium_bulbiferum",
+      "accuracy": 1.0,
+      "correct": 6,
+      "total": 6
+    },
+    {
+      "class": "Lilium_lancifolium",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Lycoris_radiata",
+      "accuracy": 0.7894736842105263,
+      "correct": 15,
+      "total": 19
+    },
+    {
+      "class": "Magnolia_grandiflora",
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10
+    },
+    {
+      "class": "Malva_sylvestris",
+      "accuracy": 1.0,
+      "correct": 11,
+      "total": 11
+    },
+    {
+      "class": "Monarda_didyma",
+      "accuracy": 1.0,
+      "correct": 11,
+      "total": 11
+    },
+    {
+      "class": "Muscari_armeniacum",
+      "accuracy": 1.0,
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "class": "Narcissus_pseudonarcissus",
+      "accuracy": 0.9,
+      "correct": 9,
+      "total": 10
+    },
+    {
+      "class": "Nasturtium_officinale",
+      "accuracy": 0.9310344827586207,
+      "correct": 27,
+      "total": 29
+    },
+    {
+      "class": "Nelumbo_nucifera",
+      "accuracy": 1.0,
+      "correct": 22,
+      "total": 22
+    },
+    {
+      "class": "Nigella_damascena",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Nymphaea_lotus",
+      "accuracy": 0.6363636363636364,
+      "correct": 7,
+      "total": 11
+    },
+    {
+      "class": "Nymphaea_odorata",
+      "accuracy": 1.0,
+      "correct": 30,
+      "total": 30
+    },
+    {
+      "class": "Ochna_integerrima",
+      "accuracy": 0.2857142857142857,
+      "correct": 4,
+      "total": 14
+    },
+    {
+      "class": "Ornithogalum_thyrsoides",
+      "accuracy": 1.0,
+      "correct": 17,
+      "total": 17
+    },
+    {
+      "class": "Osteospermum_ecklonis",
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10
+    },
+    {
+      "class": "Papaver_rhoeas",
+      "accuracy": 0.8571428571428571,
+      "correct": 6,
+      "total": 7
+    },
+    {
+      "class": "Passiflora_caerulea",
+      "accuracy": 1.0,
+      "correct": 39,
+      "total": 39
+    },
+    {
+      "class": "Phalaenopsis_amabilis",
+      "accuracy": 1.0,
+      "correct": 6,
+      "total": 6
+    },
+    {
+      "class": "Phlox_paniculata",
+      "accuracy": 0.625,
+      "correct": 5,
+      "total": 8
+    },
+    {
+      "class": "Platycodon_grandiflorus",
+      "accuracy": 0.5,
+      "correct": 4,
+      "total": 8
+    },
+    {
+      "class": "Plumeria_alba",
+      "accuracy": 0.6333333333333333,
+      "correct": 19,
+      "total": 30
+    },
+    {
+      "class": "Portulaca_grandiflora",
+      "accuracy": 0.782608695652174,
+      "correct": 18,
+      "total": 23
+    },
+    {
+      "class": "Primula_vialii",
+      "accuracy": 0.8333333333333334,
+      "correct": 5,
+      "total": 6
+    },
+    {
+      "class": "Primula_vulgaris",
+      "accuracy": 1.0,
+      "correct": 15,
+      "total": 15
+    },
+    {
+      "class": "Protea_cynaroides",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8
+    },
+    {
+      "class": "Ranunculus_acris",
+      "accuracy": 0.9166666666666666,
+      "correct": 11,
+      "total": 12
+    },
+    {
+      "class": "Rhododendron_indicum",
+      "accuracy": 0.8666666666666667,
+      "correct": 13,
+      "total": 15
+    },
+    {
+      "class": "Rudbeckia_hirta",
+      "accuracy": 1.0,
+      "correct": 9,
+      "total": 9
+    },
+    {
+      "class": "Ruellia_simplex",
+      "accuracy": 0.9230769230769231,
+      "correct": 12,
+      "total": 13
+    },
+    {
+      "class": "Scabiosa_atropurpurea",
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10
+    },
+    {
+      "class": "Strelitzia_reginae",
+      "accuracy": 0.9285714285714286,
+      "correct": 26,
+      "total": 28
+    },
+    {
+      "class": "Strongylodon_macrobotrys",
+      "accuracy": 0.8695652173913043,
+      "correct": 20,
+      "total": 23
+    },
+    {
+      "class": "Tagetes_erecta",
+      "accuracy": 0.8148148148148148,
+      "correct": 22,
+      "total": 27
+    },
+    {
+      "class": "Taraxacum_officinale",
+      "accuracy": 0.8,
+      "correct": 12,
+      "total": 15
+    },
+    {
+      "class": "Telosma_cordata",
+      "accuracy": 0.47058823529411764,
+      "correct": 8,
+      "total": 17
+    },
+    {
+      "class": "Tillandsia_recurvata",
+      "accuracy": 0.875,
+      "correct": 7,
+      "total": 8
+    },
+    {
+      "class": "Tithonia_diversifolia",
+      "accuracy": 0.6666666666666666,
+      "correct": 16,
+      "total": 24
+    },
+    {
+      "class": "Tricyrtis_hirta",
+      "accuracy": 0.8571428571428571,
+      "correct": 6,
+      "total": 7
+    },
+    {
+      "class": "Trollius_europaeus",
+      "accuracy": 0.8571428571428571,
+      "correct": 6,
+      "total": 7
+    },
+    {
+      "class": "Tropaeolum_majus",
+      "accuracy": 0.5263157894736842,
+      "correct": 10,
+      "total": 19
+    },
+    {
+      "class": "Tussilago_farfara",
+      "accuracy": 1.0,
+      "correct": 14,
+      "total": 14
+    },
+    {
+      "class": "Viola_tricolor",
+      "accuracy": 0.9285714285714286,
+      "correct": 13,
+      "total": 14
+    },
+    {
+      "class": "Zantedeschia_aethiopica",
+      "accuracy": 0.8888888888888888,
+      "correct": 8,
+      "total": 9
+    }
+  ],
+  "classification_report": {
+    "Aconitum_napellus": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "Adenium_obesum": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 10.0
+    },
+    "Alpinia_purpurata": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "Alstroemeria_aurea": {
+      "precision": 0.7647058823529411,
+      "recall": 1.0,
+      "f1-score": 0.8666666666666667,
+      "support": 13.0
+    },
+    "Anemone_coronaria": {
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1-score": 0.9473684210526315,
+      "support": 9.0
+    },
+    "Anemone_hupehensis": {
+      "precision": 0.8181818181818182,
+      "recall": 1.0,
+      "f1-score": 0.9,
+      "support": 9.0
+    },
+    "Anthurium_andraeanum": {
+      "precision": 0.8095238095238095,
+      "recall": 1.0,
+      "f1-score": 0.8947368421052632,
+      "support": 17.0
+    },
+    "Antigonon_leptopus": {
+      "precision": 0.6595744680851063,
+      "recall": 0.8157894736842105,
+      "f1-score": 0.7294117647058823,
+      "support": 38.0
+    },
+    "Antirrhinum_majus": {
+      "precision": 0.7222222222222222,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.8125,
+      "support": 14.0
+    },
+    "Aquilegia_vulgaris": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9655172413793104,
+      "support": 14.0
+    },
+    "Astrantia_major": {
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1-score": 0.9473684210526315,
+      "support": 9.0
+    },
+    "Barringtonia_acutangula": {
+      "precision": 0.5714285714285714,
+      "recall": 0.96,
+      "f1-score": 0.7164179104477612,
+      "support": 25.0
+    },
+    "Bauhinia_purpurea": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.96,
+      "support": 36.0
+    },
+    "Bidens_pilosa": {
+      "precision": 0.9705882352941176,
+      "recall": 0.9705882352941176,
+      "f1-score": 0.9705882352941176,
+      "support": 34.0
+    },
+    "Bombax_ceiba": {
+      "precision": 0.7333333333333333,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.8148148148148148,
+      "support": 12.0
+    },
+    "Bougainvillea_glabra": {
+      "precision": 0.7894736842105263,
+      "recall": 0.75,
+      "f1-score": 0.7692307692307693,
+      "support": 20.0
+    },
+    "Bromelia_pinguin": {
+      "precision": 0.7692307692307693,
+      "recall": 1.0,
+      "f1-score": 0.8695652173913043,
+      "support": 10.0
+    },
+    "Calendula_officinalis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 11.0
+    },
+    "Callistephus_chinensis": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1-score": 0.9230769230769231,
+      "support": 6.0
+    },
+    "Camellia_japonica": {
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8125,
+      "support": 15.0
+    },
+    "Campanula_medium": {
+      "precision": 0.5454545454545454,
+      "recall": 1.0,
+      "f1-score": 0.7058823529411765,
+      "support": 6.0
+    },
+    "Campsis_radicans": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 10.0
+    },
+    "Canna_indica": {
+      "precision": 0.8461538461538461,
+      "recall": 0.8461538461538461,
+      "f1-score": 0.8461538461538461,
+      "support": 13.0
+    },
+    "Catharanthus_roseus": {
+      "precision": 0.9444444444444444,
+      "recall": 0.4594594594594595,
+      "f1-score": 0.6181818181818182,
+      "support": 37.0
+    },
+    "Cattleya_labiata": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.96,
+      "support": 12.0
+    },
+    "Cautleya_spicata": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "Cirsium_vulgare": {
+      "precision": 0.6153846153846154,
+      "recall": 1.0,
+      "f1-score": 0.7619047619047619,
+      "support": 8.0
+    },
+    "Clematis_vitalba": {
+      "precision": 0.7727272727272727,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.85,
+      "support": 18.0
+    },
+    "Convolvulus_cneorum": {
+      "precision": 0.8181818181818182,
+      "recall": 1.0,
+      "f1-score": 0.9,
+      "support": 9.0
+    },
+    "Crocus_vernus": {
+      "precision": 0.7777777777777778,
+      "recall": 1.0,
+      "f1-score": 0.875,
+      "support": 7.0
+    },
+    "Curcuma_alismatifolia": {
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1-score": 0.9333333333333333,
+      "support": 7.0
+    },
+    "Cyclamen_persicum": {
+      "precision": 0.8846153846153846,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.92,
+      "support": 24.0
+    },
+    "Dahlia_pinnata": {
+      "precision": 0.9,
+      "recall": 0.3103448275862069,
+      "f1-score": 0.46153846153846156,
+      "support": 29.0
+    },
+    "Dahlia_x_pinnata": {
+      "precision": 0.8947368421052632,
+      "recall": 1.0,
+      "f1-score": 0.9444444444444444,
+      "support": 17.0
+    },
+    "Datura_stramonium": {
+      "precision": 0.8095238095238095,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.8717948717948718,
+      "support": 18.0
+    },
+    "Dendrobium_anosmum": {
+      "precision": 1.0,
+      "recall": 0.6538461538461539,
+      "f1-score": 0.7906976744186046,
+      "support": 26.0
+    },
+    "Dendrobium_phalaenopsis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "Dendromecon_rigida": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Dianthus_barbatus": {
+      "precision": 0.7647058823529411,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.8387096774193549,
+      "support": 14.0
+    },
+    "Dianthus_caryophyllus": {
+      "precision": 0.7,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.7368421052631579,
+      "support": 9.0
+    },
+    "Digitalis_purpurea": {
+      "precision": 0.78125,
+      "recall": 1.0,
+      "f1-score": 0.8771929824561403,
+      "support": 25.0
+    },
+    "Echinacea_purpurea": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9655172413793104,
+      "support": 14.0
+    },
+    "Echinops_ritro": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 8.0
+    },
+    "Echinopsis_oxygona": {
+      "precision": 0.9142857142857143,
+      "recall": 0.8421052631578947,
+      "f1-score": 0.8767123287671232,
+      "support": 38.0
+    },
+    "Eryngium_alpinum": {
+      "precision": 0.7777777777777778,
+      "recall": 1.0,
+      "f1-score": 0.875,
+      "support": 7.0
+    },
+    "Eschscholzia_californica": {
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1-score": 0.875,
+      "support": 16.0
+    },
+    "Euphorbia_pulcherrima": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 15.0
+    },
+    "Eustoma_grandiflorum": {
+      "precision": 1.0,
+      "recall": 0.6785714285714286,
+      "f1-score": 0.8085106382978723,
+      "support": 28.0
+    },
+    "Fritillaria_meleagris": {
+      "precision": 0.8823529411764706,
+      "recall": 1.0,
+      "f1-score": 0.9375,
+      "support": 15.0
+    },
+    "Fuchsia_magellanica": {
+      "precision": 1.0,
+      "recall": 0.7391304347826086,
+      "f1-score": 0.85,
+      "support": 23.0
+    },
+    "Gaillardia_aristata": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1-score": 0.9333333333333333,
+      "support": 8.0
+    },
+    "Gaura_lindheimeri": {
+      "precision": 0.9375,
+      "recall": 0.7894736842105263,
+      "f1-score": 0.8571428571428571,
+      "support": 19.0
+    },
+    "Gazania_rigens": {
+      "precision": 0.8125,
+      "recall": 1.0,
+      "f1-score": 0.896551724137931,
+      "support": 13.0
+    },
+    "Gentiana_acaulis": {
+      "precision": 0.6875,
+      "recall": 1.0,
+      "f1-score": 0.8148148148148148,
+      "support": 11.0
+    },
+    "Geranium_sanguineum": {
+      "precision": 0.9473684210526315,
+      "recall": 1.0,
+      "f1-score": 0.972972972972973,
+      "support": 18.0
+    },
+    "Gerbera_jamesonii": {
+      "precision": 0.95,
+      "recall": 0.76,
+      "f1-score": 0.8444444444444444,
+      "support": 25.0
+    },
+    "Gladiolus_communis": {
+      "precision": 0.8333333333333334,
+      "recall": 0.4838709677419355,
+      "f1-score": 0.6122448979591837,
+      "support": 31.0
+    },
+    "Helianthus_annuus": {
+      "precision": 1.0,
+      "recall": 0.8636363636363636,
+      "f1-score": 0.926829268292683,
+      "support": 22.0
+    },
+    "Helleborus_orientalis": {
+      "precision": 1.0,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.9,
+      "support": 11.0
+    },
+    "Hibiscus_rosa-sinensis": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 21.0
+    },
+    "Hydrangea_macrophylla": {
+      "precision": 1.0,
+      "recall": 0.5384615384615384,
+      "f1-score": 0.7,
+      "support": 13.0
+    },
+    "Ipomoea_purpurea": {
+      "precision": 1.0,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.9375,
+      "support": 17.0
+    },
+    "Iris_domestica": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "Iris_pseudacorus": {
+      "precision": 0.4166666666666667,
+      "recall": 0.625,
+      "f1-score": 0.5,
+      "support": 8.0
+    },
+    "Jasminum_sambac": {
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1-score": 0.8181818181818182,
+      "support": 10.0
+    },
+    "Lantana_camara": {
+      "precision": 1.0,
+      "recall": 0.631578947368421,
+      "f1-score": 0.7741935483870968,
+      "support": 19.0
+    },
+    "Lathyrus_odoratus": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 9.0
+    },
+    "Lavatera_trimestris": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 10.0
+    },
+    "Leucanthemum_vulgare": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 8.0
+    },
+    "Lilium_bulbiferum": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 6.0
+    },
+    "Lilium_lancifolium": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 8.0
+    },
+    "Lycoris_radiata": {
+      "precision": 1.0,
+      "recall": 0.7894736842105263,
+      "f1-score": 0.8823529411764706,
+      "support": 19.0
+    },
+    "Magnolia_grandiflora": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 10.0
+    },
+    "Malva_sylvestris": {
+      "precision": 0.7857142857142857,
+      "recall": 1.0,
+      "f1-score": 0.88,
+      "support": 11.0
+    },
+    "Monarda_didyma": {
+      "precision": 0.7857142857142857,
+      "recall": 1.0,
+      "f1-score": 0.88,
+      "support": 11.0
+    },
+    "Muscari_armeniacum": {
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1-score": 0.9333333333333333,
+      "support": 7.0
+    },
+    "Narcissus_pseudonarcissus": {
+      "precision": 0.6923076923076923,
+      "recall": 0.9,
+      "f1-score": 0.782608695652174,
+      "support": 10.0
+    },
+    "Nasturtium_officinale": {
+      "precision": 0.9,
+      "recall": 0.9310344827586207,
+      "f1-score": 0.9152542372881356,
+      "support": 29.0
+    },
+    "Nelumbo_nucifera": {
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1-score": 0.9565217391304348,
+      "support": 22.0
+    },
+    "Nigella_damascena": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "Nymphaea_lotus": {
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.7777777777777778,
+      "support": 11.0
+    },
+    "Nymphaea_odorata": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 30.0
+    },
+    "Ochna_integerrima": {
+      "precision": 1.0,
+      "recall": 0.2857142857142857,
+      "f1-score": 0.4444444444444444,
+      "support": 14.0
+    },
+    "Ornithogalum_thyrsoides": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "Osteospermum_ecklonis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Papaver_rhoeas": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.75,
+      "support": 7.0
+    },
+    "Passiflora_caerulea": {
+      "precision": 0.9512195121951219,
+      "recall": 1.0,
+      "f1-score": 0.975,
+      "support": 39.0
+    },
+    "Phalaenopsis_amabilis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Phlox_paniculata": {
+      "precision": 0.5555555555555556,
+      "recall": 0.625,
+      "f1-score": 0.5882352941176471,
+      "support": 8.0
+    },
+    "Platycodon_grandiflorus": {
+      "precision": 0.5714285714285714,
+      "recall": 0.5,
+      "f1-score": 0.5333333333333333,
+      "support": 8.0
+    },
+    "Plumeria_alba": {
+      "precision": 0.8636363636363636,
+      "recall": 0.6333333333333333,
+      "f1-score": 0.7307692307692307,
+      "support": 30.0
+    },
+    "Portulaca_grandiflora": {
+      "precision": 0.6206896551724138,
+      "recall": 0.782608695652174,
+      "f1-score": 0.6923076923076923,
+      "support": 23.0
+    },
+    "Primula_vialii": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "Primula_vulgaris": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 15.0
+    },
+    "Protea_cynaroides": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "Ranunculus_acris": {
+      "precision": 0.8461538461538461,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.88,
+      "support": 12.0
+    },
+    "Rhododendron_indicum": {
+      "precision": 0.8125,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8387096774193549,
+      "support": 15.0
+    },
+    "Rudbeckia_hirta": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "Ruellia_simplex": {
+      "precision": 0.8571428571428571,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.8888888888888888,
+      "support": 13.0
+    },
+    "Scabiosa_atropurpurea": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 10.0
+    },
+    "Strelitzia_reginae": {
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9629629629629629,
+      "support": 28.0
+    },
+    "Strongylodon_macrobotrys": {
+      "precision": 1.0,
+      "recall": 0.8695652173913043,
+      "f1-score": 0.9302325581395349,
+      "support": 23.0
+    },
+    "Tagetes_erecta": {
+      "precision": 0.8461538461538461,
+      "recall": 0.8148148148148148,
+      "f1-score": 0.8301886792452831,
+      "support": 27.0
+    },
+    "Taraxacum_officinale": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1-score": 0.7272727272727273,
+      "support": 15.0
+    },
+    "Telosma_cordata": {
+      "precision": 0.7272727272727273,
+      "recall": 0.47058823529411764,
+      "f1-score": 0.5714285714285714,
+      "support": 17.0
+    },
+    "Tillandsia_recurvata": {
+      "precision": 0.7777777777777778,
+      "recall": 0.875,
+      "f1-score": 0.8235294117647058,
+      "support": 8.0
+    },
+    "Tithonia_diversifolia": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 24.0
+    },
+    "Tricyrtis_hirta": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9230769230769231,
+      "support": 7.0
+    },
+    "Trollius_europaeus": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9230769230769231,
+      "support": 7.0
+    },
+    "Tropaeolum_majus": {
+      "precision": 1.0,
+      "recall": 0.5263157894736842,
+      "f1-score": 0.6896551724137931,
+      "support": 19.0
+    },
+    "Tussilago_farfara": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 14.0
+    },
+    "Viola_tricolor": {
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9629629629629629,
+      "support": 14.0
+    },
+    "Zantedeschia_aethiopica": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8888888888888888,
+      "support": 9.0
+    },
+    "accuracy": 0.851335656213705,
+    "macro avg": {
+      "precision": 0.8611670433792474,
+      "recall": 0.8768865532136499,
+      "f1-score": 0.8532591483597204,
+      "support": 1722.0
+    },
+    "weighted avg": {
+      "precision": 0.8733246829287199,
+      "recall": 0.851335656213705,
+      "f1-score": 0.8449488372242543,
+      "support": 1722.0
+    }
+  },
+  "best_performing_class": {
+    "name": "Aconitum_napellus",
+    "accuracy": 1.0
+  },
+  "worst_performing_class": {
+    "name": "Ochna_integerrima",
+    "accuracy": 0.2857142857142857
+  },
+  "timestamp": "2025-12-01T10:30:46.131010"
+}

@@ -1,0 +1,8 @@
+{
+  "current_epoch": 133,
+  "total_epochs_planned": null,
+  "last_val_accuracy": 0.8758752346038818,
+  "last_val_loss": 0.07116757333278656,
+  "timestamp": "2025-11-29T20:02:53.394830",
+  "total_epochs_completed": 133
+}
